@@ -17,3 +17,6 @@ def MenuView(request):
 
 def BookTableView(request):
     return render(request,'booktable.html')
+
+def BookTableView1(request):
+    return render(request,'booktable.html')
